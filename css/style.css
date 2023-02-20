@@ -1,13 +1,20 @@
 /* design for image background */
-.page{
+.layer-1{
     background-image: url("../images/background1.png");
     height: 70vh;
+    width: 100vw;
     
+}
+/* size for images in logo */
+.logo img{
+    width: 30px;
+
 }
 .navbar{
     background-color: rgb(221, 213, 213,.5);
     color: black;
 }
+
 .container-sm {
     background-color: rgba(245, 241, 241, 0.5);
     text-align: center;
@@ -26,27 +33,59 @@
 .container-sm h2{
     font-size: 29px;
 }
-/*Design for Next Container  */
+/*Design for layer 2  */
+.layer-2{
+    width: 100vw;
+    height: 70vh;
+}
 .left-con{
     padding: 10px;
     background-color:#00ABAB;
-    color: white;
+    color:black;
     text-align: center;
-    height: 35vh;
-
 }
 .qoutes{
     padding-top: 50px;
+    padding-bottom: 50px;
+   
 }
 div .right-con{
     padding: 0px;
 }
 .img1{
-    
-    width: 50vw;
-    height: 35vh;
+    width: 100vw; 
 }
  
 
+/*Design for layer 3 */
+.layer-3{
+    width: 100vw;
+    height: 70vh;
+}
 
 
+
+@media screen and (min-width:1020px) {
+
+    /* Layer 1 design */
+    .layer-1{
+        background-image: url("../images/background1.png");
+        height: 70vh;
+        width: 100vw;
+        
+    }
+    /* layer 2 design */
+    .img1{
+        width: 50vw; 
+    }
+    div .right-con{
+        padding: 0px;
+       
+    }
+    div .left-con{
+        padding: 10px;
+        background-color:#00ABAB;
+        color: white;
+       
+    }
+}
