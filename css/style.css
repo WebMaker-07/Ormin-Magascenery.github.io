@@ -1,77 +1,25 @@
-/* design for image background */
-.layer-1{
-    background-image: url("../images/background1.png");
-    height: 70vh;
-    width: 100vw;
-    
-}
+
 /* size for images in logo */
 .logo img{
     width: 30px;
 
 }
+/* design for navbar font */
 .navbar{
     background-color: rgb(221, 213, 213,.5);
     color: black;
 }
 
-.container-sm {
-    background-color: rgba(245, 241, 241, 0.5);
-    text-align: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bolder;
-    text-shadow:0px 5px 5px rgb(81, 91, 102);
-    padding: 15px;
-    margin-top: 100px;
-   
-}
-.mid{
-    margin-top: 150px;
-    padding-left: 10px;
-    padding-right:10px;
-}
-.container-sm h2{
-    font-size: 29px;
-}
-/*Design for layer 2  */
-.layer-2{
-    width: 100vw;
-    height: 70vh;
-}
-.left-con{
-    padding: 10px;
-    background-color:#00ABAB;
-    color:black;
-    text-align: center;
-}
-.qoutes{
-    padding-top: 50px;
-    padding-bottom: 50px;
-   
-}
-div .right-con{
-    padding: 0px;
-}
-.img1{
-    width: 100vw; 
-}
- 
-
-/*Design for layer 3 */
-.layer-3{
-    width: 100vw;
-    height: 70vh;
-}
-
+/* design for image background for responsiveness mobile first */
 .bg-img{
     background-image: url("../images/bg-two.png");
-    background-color: aqua;
     width: 100%;
     height:700px;
     background-repeat: no-repeat;
     background-size: 100% 50%;
     
 }
+/* design for container of the image and the text mobile first*/
 .middle{
     background-color:rgba(252, 252, 252, 0.5);
     padding: 15px;
@@ -79,39 +27,74 @@ div .right-con{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight:bolder;
 }
+/* design for container to make it center text mobile first */
 .txt-mid{
     margin-top: 65px;
 }
-
+.middle h2{
+    font-size: 30px;
+}
+/* Sizing for side images next */
+.side-img{
+    width: 100%;
+    height: 70vh;
+    background-size: 100% 100%;
+  
+}
+/* sizing of text in left area */
+.left-text h2{
+    font-size: 30spx;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+  /* positioing of the tag */
+  .little-tag{
+    padding: 50px 30px 0px 30px;
+   
+}
+  /* Resizing the tag paragraph */
+  .little-tag p{
+    font-size: 15px;
+   
+}
 
 @media screen and (min-width:1020px) {
 
-    /* Layer 1 design */
-    .layer-1{
-        background-image: url("../images/background1.png");
-        height: 70vh;
-        width: 100vw;
-        
+    /* design for container to make it center text desktop size */
+    .txt-mid{
+        margin-top: 130px;
+        width: 50rem;
     }
-    /* layer 2 design */
-    .img1{
-        width: 50vw; 
+    /* Adjusting the container of the qoutes */
+    .middle{
+        padding: 90px;
     }
-    div .right-con{
-        padding: 0px;
-        width: 50vw;
-       
-       
+    /* Sizing of the qoutes in top area */
+    .middle h2{
+        font-size: 50px;
     }
-    div .left-con{
-        padding: 10px;
-        background-color:#00ABAB;
-        color: black;
-        width: 40vw;
-       
-    }
-
+    /* design for image background for desktop size */
     .bg-img{
         background-size: 100% 100%;
     }
+    /* resizing the text in the left side for desktop size */
+   .left-text h2{
+      font-size: 50px;
+    }
+    /* Moving the text in the left side for desktop size */
+    .left-text{
+        /* format: top right bottom left */
+        padding: 40px 55px 0px 55px;
+    }
+    /* positioing of the tag */
+    .little-tag{
+        padding: 100px 30px 0px 30px;
+       
+    }
+     /* Resizing the tag paragraph */
+    .little-tag p{
+        font-size: 18px;
+       
+    }
+    
 }
