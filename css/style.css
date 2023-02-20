@@ -57,6 +57,19 @@
     font-size: 15px;
    
 }
+/* layer-3 spacing */
+.layer-3{
+    padding: 15px 20px 50px 20px;  
+   
+}
+
+/*  spacing ing card og laye-3*/
+.todo-card{
+    width:65vw;
+    margin: 25px 55px 25px 55px;
+}
+
+
 
 @media screen and (min-width:1020px) {
 
@@ -96,5 +109,16 @@
         font-size: 18px;
        
     }
+
+    /*  spacing ing card og laye-3*/
+.todo-card{
+    width:25vw;
+    margin: 25px 5px 25px 35px;
+  
+}
+.layer-3{
+    padding: 15px 25px 50px 25px;  
+   
+}
     
 }
