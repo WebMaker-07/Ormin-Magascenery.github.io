@@ -1,0 +1,135 @@
+
+/* size for images in logo */
+.logo img{
+    width: 30px;
+
+}
+/* design for navbar font */
+.navbar{
+    background-color: rgb(221, 213, 213,.5);
+    color: black;
+}
+
+/* design for image background for responsiveness mobile first */
+.bg-img{
+    background-image: url("../images/bg-two.png");
+    width: 100%;
+    height:700px;
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    
+}
+/* design for container of the image and the text mobile first*/
+.middle h2{
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    padding-left: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bolder;
+}
+
+.middle p{
+    padding-left: 15px;
+    padding-right: 50px;
+    color: white;
+}
+/* design for container to make it center text mobile first */
+.txt-mid{
+    margin-top: 500px;
+}
+.middle h2{
+    font-size: 30px;
+}
+/* Sizing for side images next */
+.side-img{
+    width: 100%;
+    height: 70vh;
+    background-size: 100% 100%;
+  
+}
+/* sizing of text in left area */
+.left-text h2{
+    font-size: 30spx;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+  /* positioing of the tag */
+  .little-tag{
+    padding: 50px 30px 0px 30px;
+   
+}
+  /* Resizing the tag paragraph */
+  .little-tag p{
+    font-size: 15px;
+   
+}
+/* layer-3 spacing */
+.layer-3{
+    padding: 15px 20px 50px 20px;  
+   
+}
+
+/*  spacing ing card og laye-3*/
+.todo-card{
+    width:65vw;
+    margin: 25px 55px 25px 55px;
+}
+
+
+
+@media screen and (min-width:1020px) {
+
+    /* design for container to make it center text desktop size */
+    .txt-mid{
+        margin-top: 130px;
+        width: 50rem;
+    }
+    /* Adjusting the container of the qoutes */
+    .middle{
+        padding: 90px;
+    }
+    /* Sizing of the qoutes in top area */
+    .middle h2{
+        font-size: 50px;
+    }
+    .middle p{
+        padding-left: 15px;
+        padding-right: 20rem;
+        color: white;
+    }
+    /* design for image background for desktop size */
+    .bg-img{
+        background-size: 100% 100%;
+    }
+    /* resizing the text in the left side for desktop size */
+   .left-text h2{
+      font-size: 50px;
+    }
+    /* Moving the text in the left side for desktop size */
+    .left-text{
+        /* format: top right bottom left */
+        padding: 40px 55px 0px 55px;
+    }
+    /* positioing of the tag */
+    .little-tag{
+        padding: 100px 30px 0px 30px;
+       
+    }
+     /* Resizing the tag paragraph */
+    .little-tag p{
+        font-size: 18px;
+       
+    }
+
+    /*  spacing ing card og laye-3*/
+.todo-card{
+    width:25vw;
+    margin: 25px 5px 25px 35px;
+  
+}
+.layer-3{
+    padding: 15px 25px 50px 25px;  
+   
+}
+    
+}
