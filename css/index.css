@@ -1,4 +1,7 @@
 
+body{
+    background-color: #00ABAB;
+}
 /* size for images in logo */
 .logo img{
     width: 30px;
@@ -23,22 +26,44 @@
 .middle h2{
     color: white;
     text-shadow: 5px 5px 5px black;
-    padding-left: 15px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight:bolder;
+    font-size: 30px;
 }
 
 .middle p{
-    padding-left: 15px;
     padding-right: 50px;
     color: white;
+}
+.middle a{
+    background-color: rgb(221, 213, 213,0.5);
+    box-shadow: 0px 0px 10px white;
+    font-size: 15px;
 }
 /* design for container to make it center text mobile first */
 .txt-mid{
     margin-top: 500px;
 }
-.middle h2{
-    font-size: 30px;
+/* margin of the carousel */
+.carousel-box{
+    margin-top: 195px;
+    
+}
+.card-box{
+    width: 20rem;
+  
+   
+}
+.card-box h2{
+    font-size: 20px;
+}
+.card-box p{
+    font-size: 15px;
+}
+.card-box img{
+    width: 20rem;
+    height: 15rem;
+    
 }
 /* Sizing for side images next */
 .side-img{
