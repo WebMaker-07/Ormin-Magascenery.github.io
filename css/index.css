@@ -1,6 +1,5 @@
-
 body{
-    background-color: #00ABAB;
+    background-color:#124747
 }
 /* size for images in logo */
 .logo img{
@@ -25,11 +24,10 @@ body{
 
 /* design for image background for responsiveness mobile first */
 .bg-img{
-    background-image: url("../images/bg-two.png");
-    width: 100%;
-    height:700px;
+    background-image: url("../images/background1.png");
     background-repeat: no-repeat;
-    background-size: 100% 50%;
+    height: 100%;
+
     
 }
 /* design for container of the image and the text mobile first*/
@@ -52,30 +50,52 @@ body{
     color: black;
     font-weight: bolder;
 }
+
+.btn-view a {
+  background-color: rgb(221, 213, 213,0.5);
+  box-shadow: 0px 0px 10px white;
+  font-size: 15px;
+  color: black;
+  font-weight: bolder;
+}
 /* design for container to make it center text mobile first */
 .txt-mid{
     margin-top: 500px;
 }
 /* margin of the carousel */
-.carousel-box{
-    margin-top: 195px;
-    
+
+
+.carousel-indicators button {
+   
+    height: 10px !important;
+    width: 10px !important;
+    margin: 0 10px !important;
+    border-radius: 100%;
+    background-color: #1963ac !important;
 }
-.card-box{
-    width: 20rem;
-  
+.tag-box{
+    background-color:#00ABAB;
+    color: white
    
 }
+
+.d-flex-content p{
+    width: 100px;
+    margin-right: 25px;
+}
+.d-flex-content a{
+    margin-left: 50px;
+    margin-right: 0;
+}  
 .card-box h2{
     font-size: 20px;
 }
 .card-box p{
     font-size: 15px;
 }
-.card-box img{
-    width: 20rem;
-    height: 15rem;
-    
+
+.card-body{
+    height: 100px;
 }
 /* Sizing for side images next */
 .side-img{
