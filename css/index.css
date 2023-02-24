@@ -4,11 +4,10 @@ body{
 /* size for images in logo */
 .logo img{
     width: 30px;
-
 }
 /* design for navbar font */
 .navbar{
-    background-color: rgb(221, 213, 213,.5);
+    background-color: #00ABAB;
     font-size: 15px;    
 }
 .navbar a{
@@ -21,12 +20,13 @@ body{
     border-radius: 50px;
     font-size: 20px;
 }
+/* End design for navbar font */
 
 /* design for image background for responsiveness mobile first */
 .bg-img{
     background-image: url("../images/bg-two.png");
     background-repeat: no-repeat;
-    height: 100%;
+    background-size: 100% 100%;
 
     
 }
@@ -161,35 +161,5 @@ body{
     .bg-img{
         background-size: 100% 100%;
     }
-    /* resizing the text in the left side for desktop size */
-   .left-text h2{
-      font-size: 50px;
-    }
-    /* Moving the text in the left side for desktop size */
-    .left-text{
-        /* format: top right bottom left */
-        padding: 40px 55px 0px 55px;
-    }
-    /* positioing of the tag */
-    .little-tag{
-        padding: 100px 30px 0px 30px;
-       
-    }
-     /* Resizing the tag paragraph */
-    .little-tag p{
-        font-size: 18px;
-       
-    }
 
-    /*  spacing ing card og laye-3*/
-.todo-card{
-    width:25vw;
-    margin: 25px 5px 25px 35px;
-  
-}
-.layer-3{
-    padding: 15px 25px 50px 25px;  
-   
-}
-    
 }
