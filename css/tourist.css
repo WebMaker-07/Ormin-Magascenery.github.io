@@ -21,3 +21,23 @@ body{
 .gallery-box{
    background-color: #124747;;
 }
+.bg-color{
+   background-color:rgba(223, 249, 255, 0.5);
+   box-shadow: 5px 5px 5px gray;
+   color: rgb(0, 0, 0);
+}
+
+.bg-img{
+   background-image: url("../images/four.png");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;  
+}
+.btn-color{
+   background-color: #124747;
+   color: white;
+}
+.btn-color:hover{
+   background-color: white;
+   color:#124747;
+   font-weight: bolder;
+}

@@ -24,11 +24,9 @@ body{
 
 /* design for image background for responsiveness mobile first */
 .bg-img{
-    background-image: url("../images/bg-two.png");
+    background-image: url("../images/three.png");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-
-    
+    background-size: 100% 100%;  
 }
 /* design for container of the image and the text mobile first*/
 .middle h2{
