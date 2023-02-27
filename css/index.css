@@ -1,5 +1,6 @@
 body{
     background-color: white;
+
 }
 /* size for images in logo */
 .logo img{
@@ -69,7 +70,6 @@ body{
     margin: 0 10px !important;
     border-radius: 100%;
     background-color: #1963ac !important;
-  
 }
 .carousel-item{
     margin-bottom: 100px;
@@ -80,6 +80,9 @@ div.card-text h2{
 }
 button.carousel-control-prev , .carousel-control-next{
     width: 10px;
+}
+.overflow{
+    overflow: hidden;
 }
 
 /* Design for subscribe section bg */

@@ -8,7 +8,6 @@ body{
 }
 .navbar a{
    color: black;
-
 }
 .navbar a:hover{
    background-color:rgba(0, 0, 0);
@@ -20,30 +19,36 @@ body{
 
 .box-light{
    background-color: #00ABAB;
+   color: black;
 }
 .box-darker{
-   background-color: #00ABAB;
+   background-color: #124747;
+   color: white;
 }
 .img-shadow img {
    box-shadow: 10px 10px 10px black ;
 
 }
-img:hover {
-  width: 100rem;
 
-}
 .bg-color{
    background-color:rgba(40, 164, 180, 0.5);
    box-shadow: 5px 5px 5px gray;
    color: rgb(0, 0, 0);
 
 }
-
-/* .bg-img{
-   background-image: url("../ormin-images/one.png");
+.bg-img{
+   background-image: url("../images/bg-one.png");
    background-repeat: no-repeat;
-   background-size: 100% 100%;  
-}  */
+   background-size: 100% 500%; 
+   height: 100vh; 
+}
+
+.title{
+   color: white;
+   text-shadow: 0px 10px 0px black;
+   font-weight: bolder;
+}
+
 .btn-color{
    background-color: #124747;
    color: white;
@@ -52,4 +57,16 @@ img:hover {
    background-color: white;
    color:#124747;
    font-weight: bolder;
+}
+.href-color a{
+   border: 2px solid rgb(255, 255, 255);
+   color: white;
+}
+.href-color a:hover{
+   border: 2px solid black;
+   background-color: white;
+   color: black;
+}
+a{
+   color: white;
 }

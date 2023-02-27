@@ -18,3 +18,24 @@ body{
     font-size: 20px;
  }
  /* End design for navbar font */
+ /* design for top */
+ .bg-img{
+   background-image: url("../images/bg-one.png");
+   background-repeat: no-repeat;
+   background-size: 100% 500%; 
+   height: 100vh; 
+}
+
+.title{
+   color: white;
+   text-shadow: 0px 10px 0px black;
+   font-weight: bolder;
+}
+.box-darker{
+   background-color: #124747;
+   color: white;
+}
+.card img{
+   height: 30vh;
+   width: auto;
+}
