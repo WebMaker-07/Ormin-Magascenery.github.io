@@ -1,3 +1,19 @@
 body{
     background-color:rgba(0, 171, 171,0.5)
  }
+ /* design for navbar font */
+.navbar{
+    background-color:#00ABAB;
+    font-size: 15px;    
+ }
+ .navbar a{
+    color: black;
+ 
+ }
+ .navbar a:hover{
+    background-color:rgba(0, 0, 0);
+    color: white;
+    border-radius: 50px;
+    font-size: 20px;
+ }
+ /* End design for navbar font */

@@ -1,5 +1,5 @@
 body{
-   background-color: white;
+   background-color:white;
 }
 /* design for navbar font */
 .navbar{
@@ -18,20 +18,32 @@ body{
 }
 /* End design for navbar font */
 
-.gallery-box{
-   background-color: #124747;;
+.box-light{
+   background-color: #00ABAB;
+}
+.box-darker{
+   background-color: #00ABAB;
+}
+.img-shadow img {
+   box-shadow: 10px 10px 10px black ;
+
+}
+img:hover {
+  width: 100rem;
+
 }
 .bg-color{
-   background-color:rgba(223, 249, 255, 0.5);
+   background-color:rgba(40, 164, 180, 0.5);
    box-shadow: 5px 5px 5px gray;
    color: rgb(0, 0, 0);
+
 }
 
-.bg-img{
+/* .bg-img{
    background-image: url("../ormin-images/one.png");
    background-repeat: no-repeat;
    background-size: 100% 100%;  
-}
+}  */
 .btn-color{
    background-color: #124747;
    color: white;
