@@ -81,7 +81,7 @@ a{
    width: 100%;
 }
 
-@media screen and  (max-width: 743px)  and (min-width: 540px){
+@media screen and  (max-width: 599px)  and (min-width: 400px){
    .card-img{
       width: 100%;
    }
@@ -93,7 +93,7 @@ a{
       width: 100%;
    }
 }
-@media screen and (max-width: 1024px) and (min-width: 744px){ 
+@media screen and (max-width: 1000px) and (min-width: 600px){ 
    .card{
       width: 100%;
    }
@@ -102,7 +102,7 @@ a{
    }
    .img-row{
       width: 100%;
-      margin-top: 50px;
+      margin-top: 100px;
    }
    .card-img-side{
       width: 100%;

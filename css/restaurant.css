@@ -45,20 +45,31 @@ body{
    width: 50%;
 }
 
-
-@media screen and (max-width: 540px){
+@media screen and  (max-width: 560px)  and (min-width: 400px){
    .card-img{
       width: 100%;
    }
-  
+   
    .card-img-side{
       width: 100%;
    }
+ 
 }
-
-@media screen and (max-width: 1024px) and (min-width: 744px){ 
-   .card{
+@media screen and  (max-width: 599px)  and (min-width: 559px){
+   .card-img{
       width: 100%;
+   }
+ 
+   .card-img-side{
+      width: 100%;
+   }
+   .card{
+      width: 170%;
+   }
+}
+@media screen and (max-width: 1000px) and (min-width: 600px){ 
+   .card{
+      width: 190%;
    }
    .card-img{
       width: 100%;

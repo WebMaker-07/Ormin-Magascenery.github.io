@@ -42,41 +42,50 @@ body{
 .card-img{
    width: 50%;
 }
-
+.img-row{
+   width: 100%;
+}
 .card-img-side{
    width: 50%;
 }
 
-
-
-@media screen and  (max-width: 599px)  and (min-width: 400px){
+@media screen and  (max-width: 560px)  and (min-width: 400px){
    .card-img{
       width: 100%;
    }
-  
+   .img-row{
+      width: 100%;
+      margin-top: 50px;
+   }
    .card-img-side{
       width: 100%;
+   }
+ 
+}
+@media screen and  (max-width: 599px)  and (min-width: 559px){
+   .card-img{
+      width: 100%;
+   }
+   .img-row{
+      width: 100%;
+      margin-top: 50px;
+   }
+   .card-img-side{
+      width: 100%;
+   }
+   .card{
+      width: 170%;
    }
 }
 @media screen and (max-width: 1000px) and (min-width: 600px){ 
-  .card{
-   width: 200%;
-   padding-left: 0;
-  }
+   .card{
+      width: 190%;
+   }
    .card-img{
       width: 100%;
    }
-   .card-img-side{
-      width: 100%;
-   }
-}
-@media screen and (min-width: 1024px){ 
   
-   .card-img{
-      width: 50%;
-   }
-   
    .card-img-side{
-      width: 50%;
+      width: 100%;
    }
 }
