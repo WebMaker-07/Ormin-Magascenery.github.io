@@ -35,7 +35,36 @@ body{
    background-color: #124747;
    color: white;
 }
-.card img{
-   height: 30vh;
-   width: auto;
+
+
+.card-img{
+   width: 50%;
+}
+
+.card-img-side{
+   width: 50%;
+}
+
+
+@media screen and (max-width: 540px){
+   .card-img{
+      width: 100%;
+   }
+  
+   .card-img-side{
+      width: 100%;
+   }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 744px){ 
+   .card{
+      width: 100%;
+   }
+   .card-img{
+      width: 100%;
+   }
+  
+   .card-img-side{
+      width: 100%;
+   }
 }

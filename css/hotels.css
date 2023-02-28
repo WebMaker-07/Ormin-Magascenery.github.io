@@ -39,7 +39,44 @@ body{
    font-size: 15px;
 }
 
-.card img{
-   height: 30vh;
-   width: auto;
+.card-img{
+   width: 50%;
+}
+
+.card-img-side{
+   width: 50%;
+}
+
+
+
+@media screen and  (max-width: 599px)  and (min-width: 400px){
+   .card-img{
+      width: 100%;
+   }
+  
+   .card-img-side{
+      width: 100%;
+   }
+}
+@media screen and (max-width: 1000px) and (min-width: 600px){ 
+  .card{
+   width: 200%;
+   padding-left: 0;
+  }
+   .card-img{
+      width: 100%;
+   }
+   .card-img-side{
+      width: 100%;
+   }
+}
+@media screen and (min-width: 1024px){ 
+  
+   .card-img{
+      width: 50%;
+   }
+   
+   .card-img-side{
+      width: 50%;
+   }
 }
