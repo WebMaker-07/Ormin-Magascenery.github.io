@@ -80,8 +80,11 @@ a{
 .card-img-side{
    width: 100%;
 }
+.card-img-t{
+   width: 25%;
+} 
 
-@media screen and  (max-width: 599px)  and (min-width: 400px){
+@media screen and  (max-width: 743px)  and (min-width: 400px){
    .card-img{
       width: 100%;
    }
@@ -92,8 +95,11 @@ a{
    .card-img-side{
       width: 100%;
    }
+   .card-img-t{
+      width: 100%;
+   } 
 }
-@media screen and (max-width: 1000px) and (min-width: 600px){ 
+@media screen and (max-width: 1024px) and (min-width: 744px){ 
    .card{
       width: 100%;
    }
@@ -106,5 +112,8 @@ a{
    }
    .card-img-side{
       width: 100%;
+   }
+   .card-img-t{
+      width: 50%;
    }
 }

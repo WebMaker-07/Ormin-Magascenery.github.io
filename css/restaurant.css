@@ -45,7 +45,7 @@ body{
    width: 50%;
 }
 
-@media screen and  (max-width: 560px)  and (min-width: 400px){
+@media screen and  (max-width: 570px)  and (min-width: 400px){
    .card-img{
       width: 100%;
    }
@@ -55,7 +55,7 @@ body{
    }
  
 }
-@media screen and  (max-width: 599px)  and (min-width: 559px){
+@media screen and  (max-width: 599px)  and (min-width: 571px){
    .card-img{
       width: 100%;
    }
